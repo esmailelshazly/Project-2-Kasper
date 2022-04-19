@@ -188,7 +188,7 @@ header nav .form i {
 /* Start Landing */
 .landing {
   min-height: 100vh;
-  background-image: url(/Project2/image/landing2.jpg);
+  background-image: url(imgs/landing2.jpg);
   background-size: cover;
   position: relative;
 }
@@ -531,7 +531,7 @@ header nav .form i {
 .static {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-image: url(/Project2/image/stats.png);
+  background-image: url(imgs/stats.png);
   background-size: cover;
   text-align: center;
   position: relative;
@@ -714,7 +714,7 @@ header nav .form i {
 .qoute {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-image: url(/Project2/image/quote.jpg);
+  background-image: url(imgs/quote.jpg);
   background-size: cover;
   text-align: center;
   position: relative;
@@ -859,7 +859,7 @@ q::after {
 .subscribe {
   padding-top: var(--section-padding);
   padding-bottom: var(--section-padding);
-  background-image: url(/Project2/image/subscribe.jpg);
+  background-image: url(imgs/subscribe.jpg);
   background-size: cover;
   position: relative;
   color: white
@@ -1018,7 +1018,7 @@ q::after {
 .footer {
   padding-top: calc(var(--section-padding) / 2);
   padding-bottom: calc(var(--section-padding) / 2);
-  background-image: url(/Project2/image/subscribe.jpg);
+  background-image: url(imgs/subscribe.jpg);
   background-size: cover;
   position: relative;
   color: white;
