@@ -50,19 +50,19 @@ searchBar.onsubmit = function(){
 cancelTwo.addEventListener('click', function() {
   searchBar.classList.remove('show');
 });
-let imgsChange = ['imgs/landing2.jpg', 'imgs/subscribe.jpg', 'imgs/shuffle-03.jpg'];
+// let imgsChange = ['imgs/landing2.jpg', 'imgs/subscribe.jpg', 'imgs/shuffle-03.jpg'];
 
-setInterval(function() {
-  let randomImgs = Math.floor(Math.random() * imgsChange.length);
-  landing.style.backgroundImage = 'url('+imgsChange[randomImgs]+')';
-  checkTwo();
-}, 3000);
-setInterval(function() {
-  checkOne();
-}, 6000);
-setInterval(function() {
-  checkThree();
-}, 9000);
+// setInterval(function() {
+//   let randomImgs = Math.floor(Math.random() * imgsChange.length);
+//   landing.style.backgroundImage = 'url('+imgsChange[randomImgs]+')';
+//   checkTwo();
+// }, 3000);
+// setInterval(function() {
+//   checkOne();
+// }, 6000);
+// setInterval(function() {
+//   checkThree();
+// }, 9000);
 function checkOne() {
   bulletsLis.forEach(function(e) {
     e.classList.remove("active");
