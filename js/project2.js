@@ -50,7 +50,7 @@ searchBar.onsubmit = function(){
 cancelTwo.addEventListener('click', function() {
   searchBar.classList.remove('show');
 });
-let imgsChange = ['../imgs/landing2.jpg', '../imgs/subscribe.jpg', '../imgs/shuffle-03.jpg'];
+let imgsChange = ['imgs/landing2.jpg', 'imgs/subscribe.jpg', 'imgs/shuffle-03.jpg'];
 
 setInterval(function() {
   let randomImgs = Math.floor(Math.random() * imgsChange.length);
